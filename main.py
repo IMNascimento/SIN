@@ -105,7 +105,8 @@ def inferencia(sujeira, manchas):
         "MM": pertinencia_mm(manchas),
         "GM": pertinencia_gm(manchas)
     }
-
+    print(f"Pertinência de Sujeira: {pertinencia_sujeira}")
+    print(f"Pertinência de Manchas: {pertinencia_manchas}")
     # Inicializa um dicionário para acumular os resultados das regras
     resultados = {
         "MC": 0,
@@ -162,8 +163,10 @@ def defuzzificacao_centro_gravidade(resultados):
 
 def main():
     # Entradas
-    sujeira = 50
-    manchas = 40
+    #sujeira = 50
+    #manchas = 40
+    sujeira = 25
+    manchas = 50
     
     # Realiza a inferência
     resultados = inferencia(sujeira, manchas)
