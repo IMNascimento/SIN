@@ -126,10 +126,3 @@ python main.py
 ```
 
 Após a execução, os gráficos serão salvos no diretório atual com nomes como distancia_fuzzy_plot.png, velocidade_relativa_fuzzy_plot.png, etc.
-
-### Explicação:
-
-1. **Tabelas de Pertinência**: O Markdown inclui tabelas para descrever os termos linguísticos e seus intervalos.
-2. **Gráficos**: As imagens são referenciadas como PNGs gerados pelo código.
-3. **Instruções de Instalação e Execução**: Inclui passos detalhados para clonar, configurar o ambiente virtual, instalar dependências e executar o código.
-4. **Regras de Inferência**: As regras fuzzy são descritas de maneira clara para entender o processo de decisão.
